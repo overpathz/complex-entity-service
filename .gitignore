@@ -1,0 +1,81 @@
+# Java and Maven specific
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven specific
+target/
+logs/
+!mvnw
+!mvnw.cmd
+!.mvn/
+.mvn/timing.properties
+
+# Eclipse specific
+.project
+.classpath
+.settings/
+*.prefs
+
+# IntelliJ IDEA specific
+.idea/
+*.iml
+*.iws
+out/
+
+# NetBeans specific
+nbproject/private/
+build/
+dist/
+
+# VS Code specific
+.vscode/
+
+# Operating system specific
+.DS_Store
+Thumbs.db
+
+# General
+*.log
+*.lock
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+
+# React specific
+frontend/node_modules
+build/
+dist/
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Yarn specific
+yarn-error.log
+yarn-debug.log*
+
+# npm specific
+frontend/package-lock.json
+
+# Jest and testing
+coverage/
+
+# ESLint and Prettier
+.eslintcache
+
+# Storybook
+storybook-static/
+
+# Miscellaneous
+.idea_modules/
+.eslintcache
+.parcel-cache/
+*.tsbuildinfo
+
+# Ignore all .env files except the sample
+!.env.sample
