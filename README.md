@@ -1,6 +1,10 @@
 
 ![ERD](https://github.com/user-attachments/assets/f9806b15-1c62-4f30-8449-f103a4e9c40b)
 
+UI
+<img width="557" alt="image" src="https://github.com/user-attachments/assets/0c4dc364-2bd9-4c2b-889a-de68b456f273" />
+
+
 # Complex Entity Relationship Service
 
 A **Spring Boot** application demonstrating **Hibernate** (via Spring Data JPA) with **MapStruct** and **Lombok**, plus a simple **React**-based frontend. The project models a scenario where **Employees**, **Departments**, **Projects**, and **User Profiles** have the following relationships:
